@@ -1,0 +1,152 @@
+body{
+	background-color: #8D918D ;
+}
+
+.main_heading{
+	background-color: #2C3539;
+	margin: -9px -25px 65px -10px;
+	padding:5px 0px 45px 0px;
+	font-size: 5em ;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+	justify-content: center;
+	display: flex;
+}
+
+body{
+	background-color:  ;
+	padding-left: 0px  ;
+	padding-right: 0px;
+}
+
+.logo{
+	/*width: 33%;*/
+	 display: block;
+	 max-width: 70px;
+	 justify-content: left;
+	 padding-right: 50px;
+	 
+ }
+
+
+
+.logo img{
+	width: 65px;
+	border-radius: 100%;
+	margin: 5px;
+	align-items: center;
+}
+
+.nav{
+	margin: -15px -25px 0px -10px;
+    display: flex;
+    background-color: #2C3539;
+	
+}
+.nav ul{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	width: 50%;
+	
+	
+	
+	
+	
+	
+}
+
+.nav-list{
+	position: relative;
+	
+}
+.nav li {
+	list-style: none;
+	padding: 20px;
+	font-size: 20px;
+	
+	
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 25px;
+	padding-right: 5px;
+
+	
+
+}
+
+.nav li a:hover{
+	text-decoration: none;
+    color: grey;
+} 
+
+.genre1{
+	padding-top: 30px;
+	padding:30px 15px 15px 15px;
+	
+}
+
+.genre2, .genre3{
+	display: block;
+	padding-top: 30px;
+	padding:30px 15px 25px 15px;
+	
+}
+
+.genre-name{
+	font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Kanit', sans-serif;
+	padding-bottom: 15px;
+}
+
+.slide-container{
+	max-width: 500px;
+	
+	display: flex;
+	
+}
+
+.Containers{
+	
+	transition: 1.5s;
+	padding-right: 15px;
+
+	
+	
+}
+
+
+
+
+
+
+.Containers img{
+	width: 300px;
+	height: 400px;
+	
+
+}
+
+.Containers:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+.text-footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    color: #5C5858;
+
+}
+  

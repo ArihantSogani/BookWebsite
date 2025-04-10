@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main-res.css">
+
+    <link href="font.css" rel="stylesheet" type="text/css">
+    <title>BOOK WEBSITE</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list">
+           <div class="logo"><img src="images/BOOK WORM.PNG" alt="Logo"></div>
+            <li><a href="#home">Home</a></li>
+            
+            <li><a href="carousel_2.html">Genre</a></li>
+            
+            <li><a href="review_2.html">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+      
+        </ul>
+      
+    </nav>
+    
+    
+    <section class="background firstSection" id="home">
+       <div class="box-main">
+           <div class="firstHalf">
+               <p class="text-big">If you don’t like to read, you haven’t found the right book.</p>
+               <!--<p class="text-small">Reading should not be presented to children as a chore, a duty. It should be offered as a gift</p>-->
+              
+           </div>
+           <!--
+           <div class="secondHalf">
+               <img src="images/BOOK WORM.PNG" alt="reading">
+           </div> -->
+
+       </div>
+        
+    </section>
+    <section class="section" id="reading">
+       <div class="paras">
+        <p class="sectionTag text-big">1984 </p>
+        <p class="sectionAutTag">by George Orwell</p>
+        
+        
+        <p class="sectionSubTag text-small">1984 tells the futuristic story of a dystopian, totalitarian world where free will and love are forbidden. Although the year 1984 has long since passed, the prophecy of a society controlled by fear and lies is arguably more relevant now than ever..</p>
+        </div>
+        <div class="thumbnail">
+            <img src="orwell.jpg" alt="George Orwell" class="imgFluid">
+        </div>
+    </section>
+     <section class="section section-left">
+       <div class="paras">
+        <p class="sectionTag text-big">The Kite Runner </p>
+        <p class="sectionAutTag">by Khaled Hosseini</p>
+        <p class="sectionSubTag text-small">The Kite Runner is a moving story of an unlikely friendship between a wealthy boy and the son of his father’s servant. Set in Afghanistan during a time of tragedy and destruction, this unforgettable novel will have you hooked from start to finish.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="runner.jpg" alt="Kite Runner" class="imgFluid">
+        </div>
+    </section>
+     <section class="section">
+       <div class="paras">
+        <p class="sectionTag text-big">Wuthering Heights </p>
+        <p class="sectionAutTag">by Emily Bronte</p>
+        <p class="sectionSubTag text-small">Wuthering Heights is a classic novel published way back in 1847. This harrowing story, set on a lonely English moorland, follows Catherine Earnshaw and Heathcliff’s struggle with love, betrayal, and revenge. If you love dramatic novels, add this to your must-read book list.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="heights.jpg" alt="wuthering heights" class="imgFluid">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="text-center">CONTACT US</h2>
+   <div class="form"><form action="http://localhost/ridhee_xampp/contact.php" method="post">
+       <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+       <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone" required> 
+       <input class="form-input" type="email" name="email" id="email" placeholder="Enter your Email" required>
+       <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern" required></textarea>
+       <button class="btn btn-sm dark">Submit</button></form>
+   </div>
+    </section>
+    <footer class="background">
+       <p class="text-footer">
+        Copyright &copy; 2022- All Rights Reserved
+        </p>
+    </footer> 
+        <script src="resp.js"></script>
+
+</body>
+</html>

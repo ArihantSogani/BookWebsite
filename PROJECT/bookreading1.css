@@ -1,0 +1,109 @@
+
+body{
+	background-color: #8D918D ;
+	padding-left: 0px  ;
+	padding-right: 0px;
+}
+
+.logo{
+	/*width: 33%;*/
+	 display: block;
+	 max-width: 70px;
+	 justify-content: left;
+	 
+ }
+
+
+
+.logo img{
+	width: 60px;
+	border-radius: 100%;
+	margin: 5px;
+	align-items: center;
+}
+
+.nav{
+	margin: -9px -25px 0px -10px;
+    display: flex;
+    background-color: #2C3539;
+	
+}
+.nav ul{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	width: 50%;
+	
+	
+	
+	
+	
+}
+
+.nav li {
+	list-style: none;
+	padding: 20px;
+	font-size: 20px;
+	
+	
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 25px;
+	
+
+}
+
+.nav li a:hover{
+	text-decoration: none;
+    color: grey;
+} 
+.book-img{
+    float: right;
+    width:300px;
+    height:400px;
+    padding:15px;
+	margin-right: -45px;
+   
+}
+
+
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-family:  serif;
+}
+
+.heading i{
+    font-size: 35px ;
+}
+
+
+.book-box{
+    margin: 15px;
+    padding:20px;
+}
+
+.book-box p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    
+
+    
+}
+
+.text-footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    color: #5C5858;
+
+}

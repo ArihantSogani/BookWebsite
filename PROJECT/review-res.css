@@ -1,0 +1,61 @@
+@media (max-width:730px){ 
+    .nav{
+        margin-right: 0px;
+    }
+
+    .heading{
+        margin-right: -250px;
+
+    }
+
+    .contact{
+        margin-right: -250px;
+    }
+
+    .background{
+        margin-right: -250px;
+
+    }
+
+    .review-box{
+        margin-right: -215px;
+    }
+    
+    .profile-info, .comments p{
+        font-size: 17px;
+    }
+
+}
+
+
+@media (max-width:670px){ 
+    .nav{
+        margin-right: 0px;
+    }
+
+    .heading{
+        margin-right: -300px;
+
+    }
+
+    .contact{
+        margin-right:-300px;
+    }
+
+    .background{
+        margin-right: -300px;
+
+    }
+
+    .review-box{
+        margin-right: -255px;
+    }
+    
+    .profile-info, .comments p{
+        font-size: 20px;
+    }
+
+   
+
+    
+}
